@@ -13,6 +13,7 @@ public class YamlParserTest {
     public void test() {
         YamlParser     parser  = new YamlParser();
         ExampleRequest request = parser.parseFile(new File("src/test/resources/example-01.yaml"), ExampleRequest.class);
+
         assertNotNull(request);
         assertEquals("name-1", request.getName());
         assertEquals(123, request.getId());
