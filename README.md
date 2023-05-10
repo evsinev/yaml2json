@@ -21,6 +21,13 @@ Converts snakeyaml-engine to gson
   <artifactId>yaml2json</artifactId>
   <version>1.0-1</version>
 </dependency>
+
+<dependency>
+    <groupId>org.snakeyaml</groupId>
+    <artifactId>snakeyaml-engine</artifactId>
+    <version>2.5</version>
+</dependency>
+
 ```
 
 ### Gradle
